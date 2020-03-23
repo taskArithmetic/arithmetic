@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.2-bin" />
+        <option name="userSettingsFile" value="D:\maven\repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZVrgCK2HRGZxha8xnmDzXgtpGD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\masterSpring\code\task\arithmetic\src\test\java" />
+      <recent name="D:\masterSpring\code\task\arithmetic\src\main\java" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="" />
+      <created>1584935210404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584935210404</updated>
+      <workItem from="1584935211821" duration="1756000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1584935551747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584935551747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1584937035835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584937035835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1584937114352">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="369" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584937114352" />
+    <state x="632" y="322" width="541" height="257" key="Github.ShareDialog" timestamp="1584937171710">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
+    <state x="544" y="120" key="RollbackChangesDialog" timestamp="1584937110600">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="544" y="120" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937110600" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584937212505">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584937212505" />
+  </component>
+</project>
