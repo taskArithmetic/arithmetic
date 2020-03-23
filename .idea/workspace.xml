@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/MyBatis-03-one2many/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/MyBatis-03-one2many/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/MyBatis-03-one2many/src/main/resources/com/smart/dao/IAccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/MyBatis-03-one2many/src/main/resources/com/smart/dao/IAccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/entity/ArithmeticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/entity/ArithmeticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperandUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperandUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IParamsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IParamsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,7 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZVrgCK2HRGZxha8xnmDzXgtpGD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,16 +56,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\masterSpring\code\task\arithmetic\src\test\java" />
       <recent name="D:\masterSpring\code\task\arithmetic\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ArithmeticTest.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smart" />
+      <option name="MAIN_CLASS_NAME" value="com.smart.ArithmeticTest" />
+      <option name="METHOD_NAME" value="testMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArithmeticTest.testMap" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +100,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584935210404</updated>
-      <workItem from="1584935211821" duration="1756000" />
+      <workItem from="1584935211821" duration="3253000" />
+      <workItem from="1584947019874" duration="18000" />
+      <workItem from="1584947919929" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -84,6 +129,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="90" key="#Project_Structure" timestamp="1584948505025">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1584948505025" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1584949447311">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1584949447311" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584949768795">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584949768795" />
     <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1584937114352">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -92,13 +149,41 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1584949769286">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584949769286" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1584949769286">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584949769286" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1584949769286">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584949769286" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1584949769286">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584949769286" />
     <state x="544" y="120" key="RollbackChangesDialog" timestamp="1584937110600">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="544" y="120" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937110600" />
+    <state x="270" y="13" key="SettingsEditor" timestamp="1584948924825">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584948924825" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584937212505">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584937212505" />
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584938628754">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1584938628754" />
+    <state x="457" y="223" key="git4idea.merge.GitPullDialog" timestamp="1584938980259">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="457" y="223" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1584938980259" />
   </component>
 </project>

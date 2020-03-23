@@ -1,5 +1,5 @@
 package com.smart;
 
-public class ArithmeticTest {
 
+public class ArithmeticTest {
 }
