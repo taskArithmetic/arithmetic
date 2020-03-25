@@ -10,5 +10,5 @@ public interface IProduceQuestionUtil {
      * 生成题目
      * @return 将生成的题目返回（包含问题和答案）
      */
-    Question produce();
+    Question produce(int r);
 }
