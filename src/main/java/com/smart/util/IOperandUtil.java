@@ -10,8 +10,8 @@ public interface IOperandUtil {
      * @return 返回生成的操作数
      */
     static String randomOperand(int r){
-    	int numerator;   
-    	int denominator;
+    	int numerator;   // 分子
+    	int denominator; // 分母
     	Random ran = new Random();
     	
     	denominator = ran.nextInt(20);

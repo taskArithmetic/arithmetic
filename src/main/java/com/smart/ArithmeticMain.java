@@ -10,10 +10,7 @@ public class ArithmeticMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String arg1 = new String();  // 第一个命令符
-		String arg2 = new String();  // 第二个命令符
-		int num1 = 0;                    // 第一个参数
-		int num2 = 0;                    // 第二个参数
+		String inputParams = new String(); 
 		List<Question> question_list = new ArrayList<>();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("ָ命令符说明 ");
@@ -23,29 +20,17 @@ public class ArithmeticMain {
 		System.out.println("请输入命令: ");
        
 		if(scan.hasNext()) 
-			arg1 = scan.next();
-		if(scan.hasNextInt()) {
-			num1 = scan.nextInt();	
-		}else {
-			System.out.println("输入有误");
-		}
-
-		if(scan.hasNext()) 
-			arg2 = scan.next();
-		if(scan.hasNextInt()) {
-			num2 = scan.nextInt();
-		}else {
-			System.out.println("输入有误");
-		}
+			inputParams = scan.next();
 		
-		ParamsUtilImpl param = new ParamsUtilImpl(arg1,num1,arg2,num2); 
-		 /*
-		if( true ) {   // 判断参数是否违规
+		
+		ParamsUtilImpl puImpl = new ParamsUtilImpl(); 
+		
+		if( puImpl.checkInputParams(inputParams) ) {   // 判断参数是否违规
 			ProduceQuestionUtilImpl pquestion = new ProduceQuestionUtilImpl();
 			
 		}
           
-	 */
+	 
 	
 	}
     public void show() {}
