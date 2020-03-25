@@ -1,7 +1,7 @@
 package com.smart.util;
 
 /**
- * 功能：①生成随机操作符
+ * 功能：①生成随机操作�?
  */
 public interface IOperatorUtil {
     /**

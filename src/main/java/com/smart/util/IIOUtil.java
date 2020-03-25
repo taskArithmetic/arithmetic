@@ -10,16 +10,16 @@ import java.util.List;
  */
 public interface IIOUtil {
     /**
-     * 将问题输出到文件，默认输出到D盘
-     * @param questions 生成的问题
+     * 将问题输出到文件，默认输出到D�?
+     * @param questions 生成的问�?
      * @param filePath 输出的文件的文件路径
      */
     void output(List<Question> questions,String filePath);
 
     /**
      * 对比答案，输出正确和错误的题目的数目
-     * @param answerFilePath 答案文件的路径
-     * @param taskFilePath 作业文件的路径
+     * @param answerFilePath 答案文件的路�?
+     * @param taskFilePath 作业文件的路�?
      */
     void checkAnswer(String answerFilePath,String taskFilePath);
 }
