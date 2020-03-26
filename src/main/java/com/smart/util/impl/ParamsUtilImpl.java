@@ -10,7 +10,7 @@ public class ParamsUtilImpl implements IParamsUtil {
         return param.equals("arithmetic.exe");
     }
 
-    public boolean isOperator(String param) {
+    public boolean isParam(String param) {
         switch (param) {
             case "-n":
             case "-r":
@@ -47,7 +47,7 @@ public class ParamsUtilImpl implements IParamsUtil {
                 if (i + 1 >= params.length) {
                     return false;
                 }
-                if (paramsUtil.isOperator(params[i]) &&
+                if (paramsUtil.isParam(params[i]) &&
                         (params[i + 1].matches("[0-9]+") || paramsUtil.isFile(params[i + 1]))) {
                     continue;
                 }

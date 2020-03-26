@@ -11,5 +11,5 @@ public interface IOperatorUtil {
         return null;
     }
 
-    int getOperatorOrder(String operator);
+    int getOperatorOrder(char operator);
 }

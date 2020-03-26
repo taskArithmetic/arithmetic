@@ -4,7 +4,6 @@ import java.util.*;
 
 import com.smart.entity.Question;
 import com.smart.util.*;
-import com.smart.util.ProduceQuestionUtilImpl;
 import com.smart.util.impl.ParamsUtilImpl;
 
 public class ArithmeticMain {
@@ -24,7 +23,7 @@ public class ArithmeticMain {
         if (scan.hasNext())
             inputParams = scan.next();
         if (ParamsUtilImpl.checkInputParams(inputParams)) {   // 判断参数是否违规
-            IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
+//            IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
         }
 
 

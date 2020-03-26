@@ -38,9 +38,9 @@ public class Question implements Serializable {
     @Override
     public String toString() {
         return "Question{" +
-                "suffixQuestion='" + suffixQuestion + '\'' +
-                ", infixQuestion='" + infixQuestion + '\'' +
-                ", answer='" + answer + '\'' +
+                "suffixQuestion= " + suffixQuestion + ' ' +
+                ", infixQuestion= " + infixQuestion + ' ' +
+                ", answer= " + answer + ' ' +
                 '}';
     }
 }
