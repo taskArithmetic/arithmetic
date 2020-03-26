@@ -1,7 +1,7 @@
 package com.smart.util;
 
 /**
- * 功能：①生成随机操作�?
+ * 功能：①生成随机操作
  */
 public interface IOperatorUtil {
     /**
@@ -10,4 +10,6 @@ public interface IOperatorUtil {
     static String randomOperator(){
         return null;
     }
+
+    int getOperatorOrder(String operator);
 }

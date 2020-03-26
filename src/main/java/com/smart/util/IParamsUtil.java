@@ -14,4 +14,10 @@ public interface IParamsUtil {
     static boolean checkInputParams(String params) {
         return false;
     }
+
+    boolean isExe(String param);
+
+    boolean isFile(String param);
+
+    boolean isOperator(String param);
 }

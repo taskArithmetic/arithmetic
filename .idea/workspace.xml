@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/adapter/OperandUtilAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/adapter/OperatorUtilAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ParamsUtilImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperandUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IParamsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IParamsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IProduceQuestionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IProduceQuestionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ParamsUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ParamsUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -50,11 +62,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -134,7 +147,7 @@
       <workItem from="1584947919929" duration="3762000" />
       <workItem from="1585046767563" duration="5611000" />
       <workItem from="1585098085022" duration="9101000" />
-      <workItem from="1585145065973" duration="1115000" />
+      <workItem from="1585145065973" duration="9871000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -171,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585132707149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1585146369161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585146369161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,25 +202,30 @@
     <MESSAGE value="完成接口创建" />
     <MESSAGE value="add the ArithmeticStack" />
     <MESSAGE value="complete the ParamsUtilImpl.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the ParamsUtilImpl.java" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="90" width="814" height="730" key="#Intentions" timestamp="1585155589501">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" width="814" height="730" key="#Intentions/0.0.1536.864@0.0.1536.864" timestamp="1585155589501" />
     <state x="361" y="90" key="#Project_Structure" timestamp="1584948505025">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1584948505025" />
-    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1585134754352">
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585155872323">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585134754352" />
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585155872323" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584949768795">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584949768795" />
-    <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1585132703611">
+    <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1585146367253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="369" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585132703611" />
+    <state x="369" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585146367253" />
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog" timestamp="1584937171710">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -237,25 +262,37 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585144998612" />
+    <state x="147" y="68" key="MergeDialog" timestamp="1585151126398">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="147" y="68" key="MergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1585151126398" />
+    <state x="477" y="147" key="MultipleFileMergeDialog" timestamp="1585151126407">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="477" y="147" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1585151126407" />
     <state x="544" y="120" key="RollbackChangesDialog" timestamp="1584937110600">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="544" y="120" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937110600" />
-    <state x="270" y="13" key="SettingsEditor" timestamp="1584948924825">
+    <state x="270" y="13" key="SettingsEditor" timestamp="1585153072264">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584948924825" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585132714708">
+    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585153072264" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585146405155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585132714708" />
-    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585144831751">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585146405155" />
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585146534738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1585144831751" />
-    <state x="457" y="223" key="git4idea.merge.GitPullDialog" timestamp="1584938980259">
+    <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1585146534738" />
+    <state x="630" y="318" key="extract.method.dialog" timestamp="1585152038272">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="457" y="223" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1584938980259" />
+    <state x="630" y="318" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1585152038272" />
+    <state x="457" y="223" key="git4idea.merge.GitPullDialog" timestamp="1585151055203">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="457" y="223" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1585151055203" />
   </component>
 </project>

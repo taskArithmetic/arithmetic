@@ -7,23 +7,24 @@ import java.io.Serializable;
  */
 public class Question implements Serializable {
     //
-    private String question;
+    private String suffixQuestion;
+    private String infixQuestion;
     private String answer;
 
-    public Question() {
+    public String getSuffixQuestion() {
+        return suffixQuestion;
     }
 
-    public Question(String question, String answer) {
-        this.question = question;
-        this.answer = answer;
+    public void setSuffixQuestion(String suffixQuestion) {
+        this.suffixQuestion = suffixQuestion;
     }
 
-    public String getQuestion() {
-        return question;
+    public String getInfixQuestion() {
+        return infixQuestion;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
+    public void setInfixQuestion(String infixQuestion) {
+        this.infixQuestion = infixQuestion;
     }
 
     public String getAnswer() {
@@ -37,7 +38,8 @@ public class Question implements Serializable {
     @Override
     public String toString() {
         return "Question{" +
-                "question='" + question + '\'' +
+                "suffixQuestion='" + suffixQuestion + '\'' +
+                ", infixQuestion='" + infixQuestion + '\'' +
                 ", answer='" + answer + '\'' +
                 '}';
     }
