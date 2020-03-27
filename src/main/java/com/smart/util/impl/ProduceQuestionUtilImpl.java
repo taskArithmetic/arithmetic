@@ -24,10 +24,10 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
 
         // 操作符最多有3个，则操作数最多有四个、最少有两个
         int operandCount = random.nextInt(3) + 2;
-        String suffixQuestion = OperandUtilImpl.randomOperand(r)+" ";
+        String suffixQuestion = OperandUtilImpl.randomOperand(r) + " ";
         for (int i = 0; i < operandCount - 1; i++) {
             suffixQuestion += OperandUtilImpl.randomOperand(r) + " ";
-            suffixQuestion += OperatorUtilImpl.randomOperator() +" ";
+            suffixQuestion += OperatorUtilImpl.randomOperator() + " ";
         }
         // 将中缀表达式，后缀表达式，答案封装进question中
         question.setSuffixQuestion(suffixQuestion);
@@ -66,6 +66,6 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
                 }
             }
         }
-        return stack.pop();
+        return stack.pop().replace(" ", "");
     }
 }

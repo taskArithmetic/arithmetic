@@ -2,6 +2,7 @@ package com.smart.util;
 
 import com.smart.entity.Question;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public interface IIOUtil {
      * @param questions 生成的问题?
      * @param filePath  输出的文件的文件路径
      */
-    void output(List<Question> questions, String filePath);
+    void output(List<Question> questions, String filePath) throws IOException;
 
     /**
      * 对比答案，输出正确和错误的题目的数目
