@@ -1,12 +1,60 @@
 package com.smart.util.impl;
 
+import com.smart.entity.ArithmeticStack;
 import com.smart.entity.Question;
 import com.smart.util.IArithmeticUtil;
 
 public class ArithmeticUtilImpl implements IArithmeticUtil {
 
     public void operate(Question question) {
+    	
+        String suffix = question.getSuffixQuestion();
+        String[] params = suffix.split(" ");
+        String result = new String();     // 存放中间结果
+        ArithmeticStack stack = new ArithmeticStack(suffix.length());
+       for(String param : params) { 
+    	   if(param.matches("[\\+\\-\\*÷]")) {      // 遇到操作符，弹出两个操作数计算并进栈
+    		   String[] operand;
+    		   int[] numerator = new int[2];      // 两个操作数的分子
+    		   int[] denominator = new int[2];    // 两个操作数的分母
 
+    		   for(int i=1;i>=0;i--) {
+    			   operand = stack.pop().split("/");
+    			   if(operand.length==1) {       // 判断是否为分数
+    				   numerator[i] = Integer.parseInt(operand[0]);
+    				   denominator[i] = 1;
+    			   }else { 
+    				   denominator[i] = Integer.parseInt(operand[1]);
+    				   if(operand[0].contains("'")) {   // 判断是否为带分数
+    					   String[] num = operand[0].split("'");
+    					   numerator[i] = Integer.parseInt(num[0])*denominator[i]+Integer.parseInt(num[1]);
+    				   }
+    				   else
+    					   numerator[i] = Integer.parseInt(operand[0]);
+    			   }
+    			 
+    		   }
+    		 
+    		   switch(param) {
+    		      case "+":
+    		    	  result = (numerator[0]*denominator[1]+numerator[1]*denominator[0]) + "/" + (denominator[0]*denominator[1]); break;
+    		      case "-":
+    		    	  result = (numerator[0]*denominator[1]-numerator[1]*denominator[0]) + "/" + (denominator[0]*denominator[1]); break;
+    		      case "*":
+    		    	  result = (numerator[0]*numerator[1]) + "/" + (denominator[0]*denominator[1]); break;
+    		      case "÷":
+    		    	  result = (numerator[0]*denominator[1]) + "/" + (numerator[1]*denominator[0]); break;
+    		    	 
+    		   }
+    		   stack.push(result);
+    		   
+    	   }else {    // 遇到数字直接进栈
+    		   stack.push(param);     
+    	   }	   
+       }
+	   result = simplify(stack.pop());
+       question.setAnswer(result);
+       
     }
 
     public String simplify(String fraction) {
