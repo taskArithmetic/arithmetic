@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/question1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/smart/gui/ArithmeticFrame.class" afterDir="false" />
+    <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="add the gui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IIOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IIOUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/IOUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/IOUtilImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +167,9 @@
       <workItem from="1585098085022" duration="9101000" />
       <workItem from="1585145065973" duration="9871000" />
       <workItem from="1585181903528" duration="17381000" />
-      <workItem from="1585268388631" duration="7516000" />
+      <workItem from="1585268388631" duration="8784000" />
+      <workItem from="1585319910135" duration="291000" />
+      <workItem from="1585320232645" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -238,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585188988160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add the gui">
+      <created>1585299239419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585299239419</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +249,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="change the Question" />
     <MESSAGE value="complete the ProduceQuestionUtilImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the ProduceQuestionUtilImpl" />
+    <MESSAGE value="add the gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the gui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#Inspections" timestamp="1585235526229">
@@ -276,30 +273,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584949768795" />
-    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585188985072">
+    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585322784311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585188985072" />
+    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585322784311" />
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog" timestamp="1584937171710">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585299195649">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585307112367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585299195649" />
-    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585299195649">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585307112367" />
+    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585307112366">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585299195649" />
-    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585299195649">
+    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
+    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585307112366">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585299195649" />
-    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585299195649">
+    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
+    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585307112366">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585299195649" />
+    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585239041280">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -332,10 +329,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585153072264" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585189011850">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585320269701">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585189011850" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585320269701" />
     <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585146534738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
