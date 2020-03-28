@@ -2,10 +2,7 @@ package com.smart.util.impl;
 
 import com.smart.entity.ArithmeticStack;
 import com.smart.entity.Question;
-import com.smart.util.IOperandUtil;
-import com.smart.util.IOperatorUtil;
-import com.smart.util.IParamsUtil;
-import com.smart.util.IProduceQuestionUtil;
+import com.smart.util.*;
 import org.w3c.dom.css.CSSUnknownRule;
 
 import java.util.Random;
@@ -20,7 +17,7 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
     public Question produce(int r) {
         Question question = new Question();
         Random random = new Random();
-        ArithmeticUtilImpl arithmeticUtil = new ArithmeticUtilImpl();
+        IArithmeticUtil arithmeticUtil = new ArithmeticUtilImpl();
 
         // 操作符最多有3个，则操作数最多有四个、最少有两个
         int operandCount = random.nextInt(3) + 2;

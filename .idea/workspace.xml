@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="add the gui">
+      <change afterPath="$PROJECT_DIR$/questions/question2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/smart/ArithmeticMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/question1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperandUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperandUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -170,6 +177,7 @@
       <workItem from="1585268388631" duration="8784000" />
       <workItem from="1585319910135" duration="291000" />
       <workItem from="1585320232645" duration="783000" />
+      <workItem from="1585385967200" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -242,6 +250,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
     <MESSAGE value="1" />
     <MESSAGE value="完成接口创建" />
     <MESSAGE value="add the ArithmeticStack" />
@@ -281,22 +292,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585307112367">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585386391516">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585307112367" />
-    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585307112366">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585386391516" />
+    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585386391515">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
-    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585307112366">
+    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585386391515" />
+    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585386391514">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
-    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585307112366">
+    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585386391514" />
+    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585386391515">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585307112366" />
+    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585386391515" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585239041280">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -325,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="544" y="120" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937110600" />
-    <state x="270" y="13" key="SettingsEditor" timestamp="1585153072264">
+    <state x="270" y="13" key="SettingsEditor" timestamp="1585386053977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585153072264" />
+    <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585386053977" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585322819440">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
