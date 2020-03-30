@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/grades/answer1_task1_grade.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/answer1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/question3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/task1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/entity/ArithmeticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/entity/ArithmeticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IIOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperandUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperandUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/IOUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IOperatorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IOperatorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/gui/ArithmeticFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/gui/ArithmeticFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IArithmeticUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IArithmeticUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IIOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IIOUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ArithmeticUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ArithmeticUtilImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/OperatorUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/OperatorUtilImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/IOUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/IOUtilImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" afterDir="false" />
     </list>
@@ -59,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/questions" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\masterSpring\code\task\arithmetic\questions" />
       <recent name="D:\masterSpring\code\task\arithmetic\src\test\java" />
       <recent name="D:\masterSpring\code\task\arithmetic\src\main\java" />
     </key>
@@ -85,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticTest.testCompareSuffix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticTest.testCheckAnswerFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +109,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.smart" />
       <option name="MAIN_CLASS_NAME" value="com.smart.ArithmeticTest" />
-      <option name="METHOD_NAME" value="testCompareSuffix" />
+      <option name="METHOD_NAME" value="testCheckAnswerFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ArithmeticTest.testProduceQuestions" />
+        <item itemvalue="Application.ArithmeticMain" />
+        <item itemvalue="JUnit.ArithmeticTest.testCheckAnswerFile" />
         <item itemvalue="JUnit.ArithmeticTest.testSuffixToInfix" />
         <item itemvalue="JUnit.ArithmeticTest.testSimply" />
-        <item itemvalue="JUnit.ArithmeticTest.testCompareSuffix" />
-        <item itemvalue="Application.ArithmeticMain" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +195,7 @@
       <workItem from="1585320232645" duration="783000" />
       <workItem from="1585385967200" duration="854000" />
       <workItem from="1585449883163" duration="18277000" />
-      <workItem from="1585529118944" duration="15372000" />
+      <workItem from="1585529118944" duration="29077000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -260,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585536448748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update the suffixToInfix">
+      <created>1585556941488</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585556941488</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +302,8 @@
     <MESSAGE value="add the gui" />
     <MESSAGE value="test" />
     <MESSAGE value="complete the compare" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the compare" />
+    <MESSAGE value="update the suffixToInfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the suffixToInfix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#Inspections" timestamp="1585487397586">
@@ -296,10 +318,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1584948505025" />
-    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585531097192">
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585575337977">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585531097192" />
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585575337977" />
     <state x="548" y="290" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585495533870">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -308,46 +330,46 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584949768795" />
-    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585536444459">
+    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585556938255">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585536444459" />
+    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585556938255" />
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog" timestamp="1584937171710">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
-    <state width="1493" height="394" key="GridCell.Tab.0.bottom" timestamp="1585556904630">
+    <state width="1493" height="394" key="GridCell.Tab.0.bottom" timestamp="1585584224658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="394" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585556904630" />
-    <state width="1493" height="394" key="GridCell.Tab.0.center" timestamp="1585556904630">
+    <state width="1493" height="394" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585584224658" />
+    <state width="1493" height="394" key="GridCell.Tab.0.center" timestamp="1585584224658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="394" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585556904630" />
-    <state width="1493" height="394" key="GridCell.Tab.0.left" timestamp="1585556904629">
+    <state width="1493" height="394" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585584224658" />
+    <state width="1493" height="394" key="GridCell.Tab.0.left" timestamp="1585584224658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="394" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585556904629" />
-    <state width="1493" height="394" key="GridCell.Tab.0.right" timestamp="1585556904630">
+    <state width="1493" height="394" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585584224658" />
+    <state width="1493" height="394" key="GridCell.Tab.0.right" timestamp="1585584224658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="394" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585556904630" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585536126303">
+    <state width="1493" height="394" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585584224658" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585581391282">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1585536126303">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585581391282" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1585581391282">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1585536126303">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585581391282" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1585581391282">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1585536126303">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585581391282" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1585581391282">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585581391282" />
     <state x="147" y="68" key="MergeDialog" timestamp="1585151126398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -364,10 +386,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585386053977" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585536538044">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585556952469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585536538044" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585556952469" />
     <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585146534738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -380,9 +402,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="457" y="223" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1585151055203" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585234953098">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585582476468">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585234953098" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585582476468" />
   </component>
 </project>

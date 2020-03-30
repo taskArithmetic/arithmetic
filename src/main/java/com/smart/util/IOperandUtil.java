@@ -7,7 +7,7 @@ public interface IOperandUtil {
     /**
      * @return 返回生成的操作数
      */
-    static String randomOperand(){
+    static String randomOperand() {
         return null;
     }
 }

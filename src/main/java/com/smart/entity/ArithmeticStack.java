@@ -17,13 +17,8 @@ public class ArithmeticStack {
     }
 
     // 将数据压入栈中
-    public boolean push(String s) {
-        if (top == maxsize) {
-            return false;
-        } else {
-            data[top++] = s;
-            return true;
-        }
+    public void push(String s) {
+        data[top++] = s;
     }
 
     // 弹出栈中的一个值
@@ -32,15 +27,6 @@ public class ArithmeticStack {
             return null;
         } else {
             return data[--top];
-        }
-    }
-
-    // 获得栈顶的值
-    public String getTop() {
-        if (top == 0) {
-            return null;
-        } else {
-            return data[top - 1];
         }
     }
 

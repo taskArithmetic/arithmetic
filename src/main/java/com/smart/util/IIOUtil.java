@@ -24,5 +24,5 @@ public interface IIOUtil {
      * @param answerFilePath 答案文件的路径?
      * @param taskFilePath   作业文件的路径?
      */
-    void checkAnswer(String answerFilePath, String taskFilePath);
+    void checkAnswer(String answerFilePath, String taskFilePath) throws IOException;
 }

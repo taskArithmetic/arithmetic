@@ -1,13 +1,17 @@
 package com.smart;
 
+import com.smart.util.IIOUtil;
 import com.smart.util.IProduceQuestionUtil;
+import com.smart.util.impl.IOUtilImpl;
 import com.smart.util.impl.ParamsUtilImpl;
 import com.smart.entity.Question;
 import com.smart.util.IArithmeticUtil;
 import com.smart.util.impl.ArithmeticUtilImpl;
 import com.smart.util.impl.ProduceQuestionUtilImpl;
 import org.junit.Test;
+import sun.nio.ch.IOUtil;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,5 +91,14 @@ public class ArithmeticTest {
         System.out.println(arithmeticUtil.simplify("16/4"));
         System.out.println(arithmeticUtil.simplify("3/15"));
         System.out.println(arithmeticUtil.simplify("3'12/24"));
+    }
+
+    @Test
+    public void testCheckAnswerFile() throws IOException {
+        IIOUtil ioUtil = new IOUtilImpl();
+//        ioUtil.checkAnswer("a.txt", "b.txt");
+//        ioUtil.checkAnswer("questions/answer1.txt", "a.txt");
+        ioUtil.checkAnswer("questions/answer1.txt",
+                "questions/task1.txt");
     }
 }

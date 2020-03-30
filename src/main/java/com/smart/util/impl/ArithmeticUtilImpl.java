@@ -6,17 +6,19 @@ import com.smart.util.IArithmeticUtil;
 
 public class ArithmeticUtilImpl implements IArithmeticUtil {
 
-    public void operate(Question question) {
+    public boolean operate(Question question) {
         String suffix = question.getSuffixQuestion();
         String[] params = suffix.split(" ");
-        String result = null;     // 存放中间结果
+        String result;     // 存放中间结果
         ArithmeticStack stack = new ArithmeticStack(suffix.length());
         for (String param : params) {
             if (param.matches("[+\\-*÷]")) {      // 遇到操作符，弹出两个操作数计算并进栈
-                String[] operand;
                 String operand1 = stack.pop();
                 String operand2 = stack.pop();
                 result = compute(operand1, operand2, param);
+                if (result == null) {
+                    return false;
+                }
                 stack.push(result);
             } else {    // 遇到数字直接进栈
                 stack.push(param);
@@ -24,6 +26,7 @@ public class ArithmeticUtilImpl implements IArithmeticUtil {
         }
         result = simplify(stack.pop());
         question.setAnswer(result);
+        return true;
     }
 
     public String compute(String number1, String number2, String operator) {
@@ -67,12 +70,22 @@ public class ArithmeticUtilImpl implements IArithmeticUtil {
                 result = (numerator[0] * denominator[1] + numerator[1] * denominator[0]) + "/" + (denominator[0] * denominator[1]);
                 break;
             case "-":
-                result = (numerator[0] * denominator[1] - numerator[1] * denominator[0]) + "/" + (denominator[0] * denominator[1]);
+                int i = numerator[0] * denominator[1] - numerator[1] * denominator[0];
+                if (i < 0) {
+                    return null;
+                }
+                result = i + "/" + (denominator[0] * denominator[1]);
                 break;
             case "*":
                 result = (numerator[0] * numerator[1]) + "/" + (denominator[0] * denominator[1]);
                 break;
             case "÷":
+                if (numerator[0] * denominator[1] > numerator[1] * denominator[0]) {
+                    return null;
+                }
+                if (numerator[1] * denominator[0] == 0) {
+                    return null;
+                }
                 result = (numerator[0] * denominator[1]) + "/" + (numerator[1] * denominator[0]);
                 break;
         }
@@ -132,6 +145,4 @@ public class ArithmeticUtilImpl implements IArithmeticUtil {
         else
             return getGcd(y, x % y);
     }
-
-
 }

@@ -80,7 +80,6 @@ public class ArithmeticMain {
                 System.out.println("输入的参数有误！");
                 show();
             }
-            show();
         }
     }
 

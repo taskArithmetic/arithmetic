@@ -54,7 +54,9 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
             // 将中缀表达式，后缀表达式，答案封装进question中
             question.setSuffixQuestion(suffixQuestion);
             question.setInfixQuestion(suffixToInfix(suffixQuestion));
-            arithmeticUtil.operate(question);
+            if (!arithmeticUtil.operate(question)) {
+                continue;
+            }
             if (questionStringMap.containsValue(question.getAnswer())) {
                 for (Map.Entry<Question, String> entry : questionStringMap.entrySet()) {
                     // 当答案一样时，进行栈比较，如果栈比较返回的结果为“重复”，将flag设为false
@@ -154,7 +156,7 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
         IOperatorUtil operatorUtil = new OperatorUtilImpl();
         // 记录前一个操作符
         String preOperator = " ";
-        String curOperator = " ";
+        String curOperator;
 
         String[] params = suffix.split(" ");
         for (String param : params) {

@@ -7,7 +7,7 @@ public interface IOperatorUtil {
     /**
      * @return 返回随机生成的操作符
      */
-    static String randomOperator(){
+    static String randomOperator() {
         return null;
     }
 
