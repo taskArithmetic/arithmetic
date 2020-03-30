@@ -25,4 +25,10 @@ public class OperatorUtilImpl implements IOperatorUtil {
         }
         return 0;
     }
+
+    @Override
+    public boolean hasOperator(String param) {
+        return param.contains("+") || param.contains("-") ||
+                param.contains("*") || param.contains("÷");
+    }
 }

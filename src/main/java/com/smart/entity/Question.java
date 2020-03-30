@@ -6,10 +6,16 @@ import java.io.Serializable;
  * Question 实体类：包含问题本身和它对于的答案
  */
 public class Question implements Serializable {
-    //
     private String suffixQuestion;
     private String infixQuestion;
     private String answer;
+
+    public Question(String suffixQuestion) {
+        this.suffixQuestion = suffixQuestion;
+    }
+
+    public Question() {
+    }
 
     public String getSuffixQuestion() {
         return suffixQuestion;

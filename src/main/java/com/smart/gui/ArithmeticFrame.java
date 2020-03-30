@@ -123,9 +123,7 @@ public class ArithmeticFrame implements ActionListener {
                 IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
                 List<Question> questions = new ArrayList<>();
                 IIOUtil ioUtil = new IOUtilImpl();
-                for (int i = 1; i <= Integer.parseInt(n); i++) {
-                    questions.add(produceQuestionUtil.produce(Integer.parseInt(r)));
-                }
+                questions = produceQuestionUtil.produce(Integer.parseInt(n), Integer.parseInt(r));
                 try {
                     ioUtil.output(questions, filepath + "/" + fileName + ".txt");
                     JOptionPane.showMessageDialog(null, "题目文件" +

@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="add the gui">
-      <change afterPath="$PROJECT_DIR$/questions/question2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="78a233e8-18bc-4bcf-b0ea-87014a63ca1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/smart/ArithmeticMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/question1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/ArithmeticMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/gui/ArithmeticFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IArithmeticUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IOperatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/IProduceQuestionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/IProduceQuestionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/adapter/OperandUtilAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/adapter/OperatorUtilAdapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ArithmeticUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperandUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperandUtilImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/OperatorUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smart/util/impl/ProduceQuestionUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smart/ArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/ArithmeticMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/entity/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/gui/ArithmeticFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/gui/ArithmeticFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IArithmeticUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IArithmeticUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IOperatorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IOperatorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/IProduceQuestionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/IProduceQuestionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/adapter/OperandUtilAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/adapter/OperatorUtilAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ArithmeticUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ArithmeticUtilImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/OperatorUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/OperatorUtilImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smart/util/impl/ProduceQuestionUtilImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/smart/ArithmeticTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +87,7 @@
       <recent name="D:\masterSpring\code\task\arithmetic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArithmeticMain">
+  <component name="RunManager" selected="JUnit.ArithmeticTest.testCompareSuffix">
     <configuration name="ArithmeticMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smart.ArithmeticMain" />
       <module name="arithmetic" />
@@ -83,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticTest.testCheckParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticTest.testCompareSuffix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.smart" />
       <option name="MAIN_CLASS_NAME" value="com.smart.ArithmeticTest" />
-      <option name="METHOD_NAME" value="testCheckParams" />
+      <option name="METHOD_NAME" value="testCompareSuffix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArithmeticTest.testCompareSuffix" />
+        <item itemvalue="JUnit.ArithmeticTest.testSuffixToInfix" />
+        <item itemvalue="JUnit.ArithmeticTest.testProduceQuestions" />
         <item itemvalue="Application.ArithmeticMain" />
         <item itemvalue="JUnit.ArithmeticTest.testGUI" />
-        <item itemvalue="JUnit.ArithmeticTest.testProduceQuestions" />
-        <item itemvalue="JUnit.ArithmeticTest.testCheckParams" />
-        <item itemvalue="JUnit.ArithmeticTest.testSuffixToInfix" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +195,9 @@
       <workItem from="1585268388631" duration="8784000" />
       <workItem from="1585319910135" duration="291000" />
       <workItem from="1585320232645" duration="783000" />
-      <workItem from="1585385967200" duration="476000" />
+      <workItem from="1585385967200" duration="854000" />
+      <workItem from="1585449883163" duration="18277000" />
+      <workItem from="1585529118944" duration="6716000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584935551747</created>
@@ -242,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585299239419</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1585386700181</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585386700181</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,13 +288,14 @@
     <MESSAGE value="change the Question" />
     <MESSAGE value="complete the ProduceQuestionUtilImpl" />
     <MESSAGE value="add the gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the gui" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="90" key="#Inspections" timestamp="1585235526229">
+    <state x="361" y="90" key="#Inspections" timestamp="1585487397586">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="90" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1585235526229" />
+    <state x="361" y="90" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1585487397586" />
     <state x="361" y="90" width="814" height="730" key="#Intentions" timestamp="1585155589501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -276,54 +304,58 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1584948505025" />
-    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585274778054">
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585531097192">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585274778054" />
+    <state x="895" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585531097192" />
+    <state x="548" y="290" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585495533870">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="290" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1585495533870" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584949768795">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584949768795" />
-    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585322927489">
+    <state x="410" y="35" key="CommitChangelistDialog2" timestamp="1585386697183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585322927489" />
+    <state x="410" y="35" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585386697183" />
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog" timestamp="1584937171710">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="632" y="322" width="541" height="257" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1584937171710" />
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585386391516">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom" timestamp="1585536394359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585386391516" />
-    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585386391515">
+    <state width="1493" height="386" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585536394359" />
+    <state width="1493" height="386" key="GridCell.Tab.0.center" timestamp="1585536394359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585386391515" />
-    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585386391514">
+    <state width="1493" height="386" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585536394359" />
+    <state width="1493" height="386" key="GridCell.Tab.0.left" timestamp="1585536394359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585386391514" />
-    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585386391515">
+    <state width="1493" height="386" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585536394359" />
+    <state width="1493" height="386" key="GridCell.Tab.0.right" timestamp="1585536394359">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585386391515" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585239041280">
+    <state width="1493" height="386" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585536394359" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585536126303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585239041280" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1585239041280">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1585536126303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585239041280" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1585239041280">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1585536126303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585239041280" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1585239041280">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1585536126303">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585239041280" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585536126303" />
     <state x="147" y="68" key="MergeDialog" timestamp="1585151126398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -340,10 +372,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585386053977" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585322819440">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585386710682">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585322819440" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585386710682" />
     <state x="562" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585146534738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -8,6 +8,9 @@ import com.smart.util.impl.ArithmeticUtilImpl;
 import com.smart.util.impl.ProduceQuestionUtilImpl;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArithmeticTest {
     @Test
     public void testCheckParams() {
@@ -32,19 +35,22 @@ public class ArithmeticTest {
     @Test
     public void testSuffixToInfix() {
         IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
-        String suffix = "1 2 - 3 + 4 *";
-        String infix = produceQuestionUtil.suffixToInfix(suffix);
-        System.out.println(infix);
+//        String suffix = "1 2 - 3 + 4 *";
+        String suffix2 = "3 2 1 + +";
+//        String infix = produceQuestionUtil.suffixToInfix(suffix);
+        String infix2 = produceQuestionUtil.suffixToInfix(suffix2);
+//        System.out.println(infix);
+        System.out.println(infix2);
     }
 
     @Test
     public void testProduceQuestions() {
         IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
-        for (int i = 0; i < 10; i++) {
-            System.out.println(produceQuestionUtil.produce(10));
+        for (Question question : produceQuestionUtil.produce(10, 10)) {
+            System.out.println(question);
         }
-    } 
-    
+    }
+
     @Test
     public void testOpera() {
         IArithmeticUtil arithmeticUtil = new ArithmeticUtilImpl();
@@ -53,5 +59,18 @@ public class ArithmeticTest {
         question.setSuffixQuestion(suffix);
         arithmeticUtil.operate(question);
         System.out.println(question);
+    }
+
+    @Test
+    public void testCompareSuffix() {
+        IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
+        Question question1 = new Question("3 1 2 + + ");
+        Question question2 = new Question("1 2 + 3 + ");
+        System.out.print(question1.getSuffixQuestion() + " and " + question2.getSuffixQuestion() + ": ");
+        System.out.println(produceQuestionUtil.compareSuffix(question1, question2) ? "重复" : "不重复");
+        question1 = new Question("3 2 1 4 + + + ");
+        question2 = new Question("2 1 4 + + 3 + ");
+        System.out.print(question1.getSuffixQuestion() + " and " + question2.getSuffixQuestion() + ": ");
+        System.out.println(produceQuestionUtil.compareSuffix(question1, question2) ? "重复" : "不重复");
     }
 }

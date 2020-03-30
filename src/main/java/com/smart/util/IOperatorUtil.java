@@ -11,5 +11,13 @@ public interface IOperatorUtil {
         return null;
     }
 
+    /**
+     * 获得操作符的优先级
+     */
     int getOperatorOrder(char operator);
+
+    /**
+     * 检查参数是否含有运算符
+     */
+    boolean hasOperator(String param);
 }

@@ -10,7 +10,7 @@ public class OperandUtilImpl implements IOperandUtil {
         int denominator; // 分母
         Random ran = new Random();
 
-        denominator = ran.nextInt(15)+1;
+        denominator = ran.nextInt(15) + 1;
         numerator = ran.nextInt(denominator * r);
         String fraction = numerator + "/" + denominator;
         ArithmeticUtilImpl arithmeticUtil = new ArithmeticUtilImpl();
