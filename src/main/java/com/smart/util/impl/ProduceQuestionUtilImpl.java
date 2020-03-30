@@ -25,11 +25,31 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
             flag = true;
             Question question = new Question();
             // 操作符最多有3个，则操作数最多有四个、最少有两个
-            int operandCount = random.nextInt(3) + 2;
-            String suffixQuestion = OperandUtilImpl.randomOperand(r) + " ";
-            for (int j = 0; j < operandCount - 1; j++) {
-                suffixQuestion += OperandUtilImpl.randomOperand(r) + " ";
-                suffixQuestion += OperatorUtilImpl.randomOperator() + " ";
+            int count = random.nextInt(3) + 2;
+            int operandCount = 0;
+            int operatorCount = 0;
+            String suffixQuestion = "";
+            while (operatorCount != operandCount - 1 || operandCount < count) {
+                if (operandCount == count) {
+                    suffixQuestion += OperatorUtilImpl.randomOperator() + " ";
+                    operatorCount++;
+                    continue;
+                }
+                if (operandCount - operatorCount > 1) {
+                    switch (random.nextInt(2)) {
+                        case 0:
+                            suffixQuestion += OperandUtilImpl.randomOperand(r) + " ";
+                            operandCount++;
+                            break;
+                        case 1:
+                            suffixQuestion += OperatorUtilImpl.randomOperator() + " ";
+                            operatorCount++;
+                            break;
+                    }
+                } else {
+                    suffixQuestion += OperandUtilImpl.randomOperand(r) + " ";
+                    operandCount++;
+                }
             }
             // 将中缀表达式，后缀表达式，答案封装进question中
             question.setSuffixQuestion(suffixQuestion);
@@ -133,37 +153,30 @@ public class ProduceQuestionUtilImpl implements IProduceQuestionUtil {
         ArithmeticStack stack = new ArithmeticStack(10);
         IOperatorUtil operatorUtil = new OperatorUtilImpl();
         // 记录前一个操作符
-        char preOperator = ' ';
+        String preOperator = " ";
+        String curOperator = " ";
 
-        for (int i = 0; i < suffix.length(); i++) {
-            char curOperator = suffix.charAt(i);
-            if ((curOperator >= '0' && curOperator <= '9') || curOperator == '/') {
-                String value = "";
-                while (curOperator != ' ') {
-                    value += curOperator;
-                    curOperator = suffix.charAt(++i);
-                }
-                stack.push(value);
-            } else {
-                if (curOperator != ' ') {
-                    if (operatorUtil.getOperatorOrder(curOperator)
-                            > operatorUtil.getOperatorOrder(preOperator)) {
-                        String y = stack.pop();
-                        String x = stack.pop();
-                        stack.push("( " + x + " ) " + curOperator + " " + y);
-                    } else if (operatorUtil.getOperatorOrder(curOperator)
-                            == operatorUtil.getOperatorOrder(preOperator)) {
-                        stack.push("( " + stack.pop() + " )");
-                        String y = stack.pop();
-                        String x = stack.pop();
-                        stack.push(x + " " + curOperator + " " + y);
-                    } else {
-                        String y = stack.pop();
-                        String x = stack.pop();
-                        stack.push(x + " " + curOperator + " " + y);
+        String[] params = suffix.split(" ");
+        for (String param : params) {
+            if (param.matches("[+\\-*÷]")) {
+                // 读取到的是操作符
+                curOperator = param;
+                String s1 = stack.pop();
+                String s2 = stack.pop();
+                if (operatorUtil.getOperatorOrder(preOperator) <=
+                        operatorUtil.getOperatorOrder(curOperator)) {
+                    if (operatorUtil.hasOperator(s2)) {
+                        s2 = "( " + s2 + " )";
                     }
-                    preOperator = curOperator;
+                    if (operatorUtil.hasOperator(s1)) {
+                        s1 = "( " + s1 + " )";
+                    }
                 }
+                stack.push(s2 + " " + param + " " + s1);
+                preOperator = curOperator;
+            } else {
+                // 读取到的是运算数
+                stack.push(param);
             }
         }
         return stack.pop().replace(" ", "");

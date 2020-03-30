@@ -35,12 +35,18 @@ public class ArithmeticTest {
     @Test
     public void testSuffixToInfix() {
         IProduceQuestionUtil produceQuestionUtil = new ProduceQuestionUtilImpl();
-//        String suffix = "1 2 - 3 + 4 *";
+        String suffix1 = "1 2 - 3 + 4 *";
         String suffix2 = "3 2 1 + +";
-//        String infix = produceQuestionUtil.suffixToInfix(suffix);
-        String infix2 = produceQuestionUtil.suffixToInfix(suffix2);
-//        System.out.println(infix);
-        System.out.println(infix2);
+        String suffix3 = "4/5 7'7/9 + 8 +  ";
+        String suffix4 = "2 3 4 - *";
+//        String infix1 = produceQuestionUtil.suffixToInfix(suffix1);
+//        String infix2 = produceQuestionUtil.suffixToInfix(suffix2);
+//        String infix3 = produceQuestionUtil.suffixToInfix(suffix3);
+        String infix4 = produceQuestionUtil.suffixToInfix(suffix4);
+//        System.out.println(infix1);
+//        System.out.println(infix2);
+//        System.out.println(infix3);
+        System.out.println(infix4);
     }
 
     @Test
@@ -72,5 +78,14 @@ public class ArithmeticTest {
         question2 = new Question("2 1 4 + + 3 + ");
         System.out.print(question1.getSuffixQuestion() + " and " + question2.getSuffixQuestion() + ": ");
         System.out.println(produceQuestionUtil.compareSuffix(question1, question2) ? "重复" : "不重复");
+    }
+
+    @Test
+    public void testSimply() {
+        IArithmeticUtil arithmeticUtil = new ArithmeticUtilImpl();
+        System.out.println(arithmeticUtil.simplify("4"));
+        System.out.println(arithmeticUtil.simplify("16/4"));
+        System.out.println(arithmeticUtil.simplify("3/15"));
+        System.out.println(arithmeticUtil.simplify("3'12/24"));
     }
 }

@@ -12,15 +12,15 @@ public class OperatorUtilImpl implements IOperatorUtil {
         return operators[i];
     }
 
-    public int getOperatorOrder(char operator) {
+    public int getOperatorOrder(String operator) {
         switch (operator) {
-            case '+':
-            case '-':
+            case "+":
+            case "-":
                 return 0;
-            case '*':
-            case '÷':
+            case "*":
+            case "÷":
                 return 1;
-            case ' ':
+            case " ":
                 return 2;
         }
         return 0;

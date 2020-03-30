@@ -80,9 +80,22 @@ public class ArithmeticUtilImpl implements IArithmeticUtil {
     }
 
     public String simplify(String fraction) {
+        String[] parts;
+        if (fraction.contains("/")) {
+            parts = fraction.split("/");
+            if (parts[0].contains("'")) {   // 判断是否为带分数
+                String[] num = parts[0].split("'");
+                parts[0] = Integer.toString(Integer.parseInt(num[0]) * Integer.parseInt(parts[1]) +
+                        Integer.parseInt(num[1]));
+            }
+        } else {
+            fraction += "/1";
+            parts = fraction.split("/");
+        }
+
         // 得到分子分母
-        int numerator = Integer.parseInt(fraction.split("/")[0]);
-        int denominator = Integer.parseInt(fraction.split("/")[1]);
+        int numerator = Integer.parseInt(parts[0]);
+        int denominator = Integer.parseInt(parts[1]);
         int gcd;           // 最大公约数
         int simNumerator;  // 约分后的分子
         int simDenominator; // 约分后的分母
