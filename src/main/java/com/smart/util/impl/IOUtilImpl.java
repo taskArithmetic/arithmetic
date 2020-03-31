@@ -10,18 +10,24 @@ import com.smart.util.IIOUtil;
 public class IOUtilImpl implements IIOUtil {
 
     public void output(List<Question> questions, String filePath) throws IOException {
-        File file = new File(filePath);
-        if (file.exists()) {
+        File questionFile = new File(filePath);
+        File answerFile = new File(filePath.substring(0, filePath.indexOf("."))
+                + "_answer.txt");
+        if (questionFile.exists()) {
             System.out.println("文件" + filePath + "已存在！请更改路径或文件名");
             return;
         }
-        file.createNewFile();
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        questionFile.createNewFile();
+        answerFile.createNewFile();
+        BufferedWriter questionWriter = new BufferedWriter(new FileWriter(questionFile));
+        BufferedWriter answerWriter = new BufferedWriter(new FileWriter(answerFile));
         for (Question question : questions) {
-            writer.write(question.getInfixQuestion() + " = " + question.getAnswer() + "\n");
+            questionWriter.write(question.getInfixQuestion() + " = \n");
+            answerWriter.write(question.getInfixQuestion() + " = " + question.getAnswer() + "\n");
         }
         System.out.println("文件已经成功写出到" + filePath + "中");
-        writer.close();
+        questionWriter.close();
+        answerWriter.close();
     }
 
     public void checkAnswer(String answerFilePath, String taskFilePath) throws IOException {
